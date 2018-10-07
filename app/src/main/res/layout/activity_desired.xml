@@ -52,23 +52,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="223dp"
                 app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:id="@+id/toggleButton" android:textOn="@string/men" android:textOff="@string/men"
+                android:id="@+id/menBtn" android:textOn="@string/men" android:textOff="@string/men"
                 android:fontFamily="@font/montserrat" android:textColor="@android:color/white"
-                android:background="@drawable/swoosh_toggle"/>
+                android:background="@drawable/swoosh_toggle" android:onClick="onMenClicked"/>
         <ToggleButton
                 android:text="@string/women"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="307dp"
                 app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-                android:id="@+id/toggleButton2" android:textOff="@string/women" android:textOn="@string/women"
+                android:id="@+id/womenBtn" android:textOff="@string/women" android:textOn="@string/women"
                 android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:fontFamily="@font/montserrat"
-                android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"/>
+                android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"
+                android:onClick="onWomenClicked"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton4" android:textOff="@string/co_ed"
+                android:layout_height="wrap_content" android:id="@+id/coedBtn" android:textOff="@string/co_ed"
                 android:textOn="@string/co_ed" android:fontFamily="@font/montserrat"
                 android:textColor="@android:color/white"
-                android:background="@drawable/swoosh_toggle"/>
+                android:background="@drawable/swoosh_toggle" android:onClick="onCoedClicked"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
