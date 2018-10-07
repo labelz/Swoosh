@@ -1,8 +1,9 @@
-package th.co.bluesharp.swoosh
+package th.co.bluesharp.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_welcome.*
+import th.co.bluesharp.swoosh.R
 
 class WelcomeActivity : BaseActivity() {
 

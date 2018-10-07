@@ -1,10 +1,12 @@
-package th.co.bluesharp.swoosh
+package th.co.bluesharp.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_desired.*
+import th.co.bluesharp.swoosh.R
+import th.co.bluesharp.swoosh.Utils.EXTRA_LEAGUE
 
 class DesiredActivity : BaseActivity() {
 
